@@ -1,0 +1,23 @@
+<app-header titulo="grid"></app-header>
+
+<ion-content class="ion-padding" fullscreen>
+  <ion-grid fixed>
+    <ion-row>
+      <ion-col size="12" size-lg="3" size-md="4" size-sm="6"
+              *ngFor="let item of [1,1,1,1,1,1,1,1,1,1,1,1]">
+      <ion-card>
+        <ion-img src="/assets/homero.jpg"></ion-img>
+      </ion-card>
+      
+      <ion-card-header>
+        <ion-card-subtitle>Awesome Subtitle</ion-card-subtitle>
+        <ion-card-title>Awesome Title</ion-card-title>
+      </ion-card-header>
+
+      <ion-card-content>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia sint molestiae laudantium accusantium. Quis a, fugiat reiciendis maxime nisi ratione minus, qui autem rerum beatae cupiditate! Eum corporis voluptatum ullam!
+      </ion-card-content>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
